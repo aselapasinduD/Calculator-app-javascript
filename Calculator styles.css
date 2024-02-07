@@ -13,10 +13,15 @@ body {
     align-items: center;
     background: linear-gradient(320deg, #2801b4, #e01313, #5e4dff);
     display: flex;
+    flex-direction: row;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
     height: inherit;
     justify-content: center;
+}
+
+h1 {
+    text-align: center;
 }
 
 .wrapper {
